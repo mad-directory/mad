@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAD-C-001 – Symphony Nr. 1</title>
+
+<style>
+body {
+    font-family: Georgia, serif;
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.audio-player {
+    margin: 20px 0;
+}
+
+/* Rechtsklick auf Audio blockieren */
+audio {
+    pointer-events: auto;
+}
+</style>
+</head>
+
+<body>
+
+<h1>MAD-C-001 – Symphony Nr. 1</h1>
+
+<p><strong>Jahr: </strong>2026</p>
+<p><strong>Besetzung: </strong>Symphony Orchestra</p>
+<p><strong>Dauer: </strong>~ 31 min</p>
+<p><strong>Kategorie: </strong>Symphony</p>
+<p><strong>Dedicated to: </strong>Walter Thauerer</p>
+
+<div class="audio-player">
+    <audio controls controlsList="nodownload" oncontextmenu="return false;">
+        <source src="audio/madc_001.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+<a href="index.html">← Back</a>
+
+</body>
+</html>
